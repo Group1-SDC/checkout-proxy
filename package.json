@@ -9,7 +9,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server",
-    "start:dev": "nodemon server"
+    "start:dev": "nodemon server",
+    "stress": "k6 run tests/http_get.js"
   },
   "keywords": [],
   "author": "",
