@@ -1,5 +1,5 @@
 node_modules
-adidasGallery.pem
+*.pem
 login.sh
 mongodb.txt
 nodeInstall.txt
